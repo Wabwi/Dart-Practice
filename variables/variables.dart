@@ -20,5 +20,6 @@ void main() {
 
   print('This is, $nick_name $first_name $last_name, He is a $tribe!');
   print('He is $age years old and $height feet tall and weighs $weight kgs');
-  print('His mother is $mothers_name and his father is $fathers_name');
+  print('His mother is $mothers_name and his father is $fathers_name and he is married: $is_married');
+  print('He lives in box number $box_number');
 }
