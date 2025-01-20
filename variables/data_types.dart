@@ -8,7 +8,7 @@ void main() {
   num num4 = 50.4;
 
   num sum = num1 + num2 + num3 + num4;
-  num sumRounded = sum.round();
+  //num sumRounded = sum.round();
   print(
       'The sum of $num1, $num2, $num3 and $num4 is ${sum.toStringAsFixed(2)}');
 
