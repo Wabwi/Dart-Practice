@@ -4,6 +4,8 @@ void main() {
   String last_name = 'hamis';
   String? tribe = 'Kikuyu'; //Nullable type. Can be 'null' or string.
   int age = 30;
+  num box_number =  5; //num is a generic type that can be either an int or a double.
+  bool is_married = false;
   double height;
   height = 5.6;
 
