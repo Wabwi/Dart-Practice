@@ -1,5 +1,3 @@
-import 'dart:math';
-
 void main() {
   Map<String, String> countries_capital = {
     'USA': 'Washington DC',
