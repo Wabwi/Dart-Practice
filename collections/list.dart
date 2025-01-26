@@ -67,4 +67,14 @@ void main() {
 
   List<String> allNames = [...names1, ...names2];
   print(allNames);
+
+  //condition in List
+  bool sad = false;
+  var cart = ['milk', 'ghee', if (sad) 'Beer'];
+  print(cart);
+
+  //WhereFilter in List
+  List<int> numbers_f = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
+  List<int> even_num = numbers_f.where((number) => number.isEven).toList();
+  print(even_num);
 }
